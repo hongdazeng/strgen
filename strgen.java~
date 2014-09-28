@@ -19,4 +19,11 @@ public class strgen {
         }
         return builder.toString();
     }
+    
+    public static void main (String[] args){
+        Scanner reader = new Scanner (System.in);
+        System.out.println ("Please enter how long of a string you need (a~z, 0~9: ");
+        int strLen = reader.nextInt();
+        System.out.println ( randomString(strLen));
+    }
 }
