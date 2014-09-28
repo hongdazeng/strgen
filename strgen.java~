@@ -7,7 +7,7 @@
  * */
 
 import java.util.*;
-public class strgen {
+public class Strgen {
     public static String randomString(int length) {
         final String pickline = "0123456789abcdefghijklmnopqrestuvwxyz";
         // The method will choose random characters from the above line
@@ -20,7 +20,7 @@ public class strgen {
         return builder.toString();
     }
     
-    public static void main (String[] args){
+    public static void main (String[] args) {
         Scanner reader = new Scanner (System.in);
         System.out.println ("Please enter how long of a string you need (a~z, 0~9: ");
         int strLen = reader.nextInt();
